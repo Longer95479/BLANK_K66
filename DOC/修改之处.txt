@@ -1,0 +1,9 @@
+include.h里
+#include "LQ_CAMERA.h"             /* 摄像头      例子 */
+改为
+#include "LQ_CAMERA_OV7725.h"             /* 摄像头      例子 */
+
+
+Board里的 LQ_CAMERA.c/h 改成了两个类型 
+LQ_CAMERA_OV7725.c/h
+LQ_CAMERA_MT9V034.c/h

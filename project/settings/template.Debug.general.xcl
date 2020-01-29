@@ -1,0 +1,17 @@
+"D:\Longer\IAR_ARM\arm\bin\armproc.dll" 
+
+"D:\Longer\IAR_ARM\arm\bin\armstlink2.dll" 
+
+"D:\Longer\智能车赛\my_programs\BLANK_K66\project\Debug\Exe\template.out" 
+
+--plugin="D:\Longer\IAR_ARM\arm\bin\armbat.dll" 
+
+--device_macro="D:\Longer\IAR_ARM\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="D:\Longer\IAR_ARM\arm\config\debugger\NXP\K6x_Trace.dmac" 
+
+--flash_loader="D:\Longer\IAR_ARM\arm\config\flashloader\NXP\FlashK65Fxxx256K.board" 
+
+
+
+
