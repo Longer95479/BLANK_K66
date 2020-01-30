@@ -57,7 +57,7 @@ void ANO_DT_send_int16(short data1, short data2, short data3, short data4, short
 	data_to_send[_cnt++]=BYTE1(data3);
 	data_to_send[_cnt++]=BYTE0(data3);
     
-    data_to_send[_cnt++]=BYTE1(data4);
+        data_to_send[_cnt++]=BYTE1(data4);
 	data_to_send[_cnt++]=BYTE0(data4);
 
 	data_to_send[_cnt++]=BYTE1(data5);
@@ -66,7 +66,7 @@ void ANO_DT_send_int16(short data1, short data2, short data3, short data4, short
 	data_to_send[_cnt++]=BYTE1(data6);
 	data_to_send[_cnt++]=BYTE0(data6);
     
-    data_to_send[_cnt++]=BYTE1(data7);
+         data_to_send[_cnt++]=BYTE1(data7);
 	data_to_send[_cnt++]=BYTE0(data7);
 
 	data_to_send[_cnt++]=BYTE1(data8);
