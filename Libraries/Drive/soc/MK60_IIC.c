@@ -26,9 +26,15 @@ void IIC_Init(void)
 {			
     GPIO_PinInit(IIC_SCL_PIN,GPO,1);
     GPIO_PinInit(IIC_SDA_PIN,GPO,1);
+    
+    uint8_t ptx = PTX(IIC_SDA_PIN);
+    uint8_t ptn = PTn(IIC_SDA_PIN);
+    
+    PORTX[ptx]->PCR[ptn] |= 0x01 << 1;
+    PORTX[ptx]->PCR[ptn] |= 0x01 << 5;	
 	
-	IIC_SCL=1;
-	IIC_SDA=1;
+    IIC_SCL=1;
+    IIC_SDA=1;
 }
 /******************************************************************************
 *º¯  Êý£ºvoid IIC_Start(void)
